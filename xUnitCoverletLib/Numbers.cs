@@ -3,13 +3,13 @@
 namespace xUnitCoverletLib;
 public class Numbers
 {
-    public static bool IsValid(String checkNumer)
+    public static bool IsValid(String number)
     {
-        if (!IsNumber(checkNumer))
+        if (!IsNumber(number))
         {
             return false;
         }
-        if (checkNumer.Trim().Length > 10)
+        if (number.Trim().Length > 10)
         {
             return false;
         }
